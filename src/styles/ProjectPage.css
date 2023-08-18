@@ -1,0 +1,28 @@
+.project {
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: left;
+    justify-content: left;
+    /* margin: 0 auto; */
+    width: 1000px;
+    height: 1000px;
+    padding: 0 0 0 0;
+    background-color: #2522ca;
+
+
+}
+
+.project-page {
+    padding-top: 50%;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items with space between them */
+  }
+  
+  .item {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+  }
