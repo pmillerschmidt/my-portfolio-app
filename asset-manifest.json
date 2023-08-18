@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-app/static/css/main.db98cf86.css",
-    "main.js": "/my-portfolio-app/static/js/main.c6d88f17.js",
+    "main.js": "/my-portfolio-app/static/js/main.ad78057a.js",
     "static/js/787.3c86a6c9.chunk.js": "/my-portfolio-app/static/js/787.3c86a6c9.chunk.js",
     "static/media/glyphicons-halflings-regular.svg": "/my-portfolio-app/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
     "static/media/glyphicons-halflings-regular.ttf": "/my-portfolio-app/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
@@ -10,11 +10,11 @@
     "static/media/glyphicons-halflings-regular.woff2": "/my-portfolio-app/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/my-portfolio-app/index.html",
     "main.db98cf86.css.map": "/my-portfolio-app/static/css/main.db98cf86.css.map",
-    "main.c6d88f17.js.map": "/my-portfolio-app/static/js/main.c6d88f17.js.map",
+    "main.ad78057a.js.map": "/my-portfolio-app/static/js/main.ad78057a.js.map",
     "787.3c86a6c9.chunk.js.map": "/my-portfolio-app/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db98cf86.css",
-    "static/js/main.c6d88f17.js"
+    "static/js/main.ad78057a.js"
   ]
 }
