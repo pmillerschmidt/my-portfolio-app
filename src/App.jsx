@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //routing 
 // importing components from react-router-dom package
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
