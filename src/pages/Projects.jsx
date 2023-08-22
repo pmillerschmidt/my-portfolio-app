@@ -18,11 +18,6 @@ import BootstrapCard from '../components/BootstrapCard';
 
 function Projects() {
 
-
-  // useEffect(() => {
-  //   document.body.style.backgroundImage = `url(${bg})`;
-  // }, []);
-  
         return (
          
 
@@ -42,7 +37,7 @@ function Projects() {
           <BootstrapCard title="Starmoney" imageUrl={lg} info="Harmonically-attentive Melody Generator" link="https://github.com/paulmillerschmidt/MelGen"/>
         </div>
         <div class="project-badge">
-        <BootstrapCard title="Chess Alphabot" imageUrl={cg} info="Harmonically-attentive Melody Generator" link="https://github.com/paulmillerschmidt/MelGen"/>
+        <BootstrapCard title="AlphaBot" imageUrl={cg} info="Harmonically-attentive Melody Generator" link="https://github.com/paulmillerschmidt/MelGen"/>
         </div>
       </div>
       <div className='row'> 
