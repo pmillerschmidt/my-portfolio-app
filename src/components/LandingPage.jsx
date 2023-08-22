@@ -20,16 +20,16 @@ class LandingPage extends Component {
               transform: "translate(-50%, -50%)"
             }}
           >
-            <div class="inner">
+            <div>
                 <h1 class="cover-heading">
                     <p>Paul Miller-Schmidt</p>
                     <p class="h2">Musician | Software Engineer | Educator</p>
                     </h1>
                
-                <p class="lead">In a world of points and pixels, it is important to bring life to our machines. 
-</p>
+                {/* <p class="lead">In a world of points and pixels, it is important to bring life to our machines. 
+</p> */}
                 <p class="lead">
-                <Link to="/About" class="btn btn-lg btn-default">Learn More</Link>
+                <Link to="/About" class="btn btn-lg btn-default btn1">Learn More</Link>
                 </p>
       </div>
 

@@ -4,33 +4,36 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import '../styles/MediaCard.css';
 
 const MediaCard = ({ title, content, imageUrl }) => {
   return (
-    <Card sx={{ bgcolor: 'background.paper',
+    <Card sx={{ bgcolor: '#414b5f5a',
                 boxShadow: 1,
                 borderRadius: 2,
                 p: 2,
                 minWidth: 300 }}>
       <CardMedia
         sx={{ height: 140}}
-        image='url(${imageUrl})'
+        image={imageUrl}
         title={title}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography class="title" gutterBottom component="div">
           {title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {content}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+        <Box textAlign='center'>
+        <Button className="btn-bold" variant='contained' size="medium">Learn More</Button>
+        </Box>
     </Card>
+
+    
   );
 }
 

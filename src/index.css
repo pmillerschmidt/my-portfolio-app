@@ -28,7 +28,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #81a8db;
 }
 
 /* Custom default button */
@@ -37,8 +37,8 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #8996c1cb;
+  /* border: 1px solid #fff; */
 }
 
 
@@ -49,13 +49,25 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #3c8f8f;
+  /* background-color: #3c8f8f; */
+  /* background-color: #401717; */
 }
 body {
-  color: #401717;
+  /* color: #401717; */
+  height: 100%;
+  background: url(static/images/cover.jpg) no-repeat center center fixed; 
+  /* filter: blur(10px); Apply the initial blur */
+  /* animation: unblurBackground 2s forwards; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-image: url("../static/images/landing.jpg"); */
   text-align: center;
   text-shadow: 0 1px 3px rgba(124, 77, 77, 0.5);
 }
+
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -108,7 +120,7 @@ body {
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(127, 115, 115, 0.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,

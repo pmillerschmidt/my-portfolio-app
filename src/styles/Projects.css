@@ -1,0 +1,62 @@
+
+
+.content {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2vh;
+    width: 85%;
+    height: 80vh;
+    backdrop-filter: blur(0px);
+    animation: blurAnimation 4s forwards;
+    /* background-color: rgba(0, 0, 0, 0.61); */
+    border: 5px solid rgba(242, 242, 242, 0);
+    border-radius: 10%;
+    
+}
+
+@keyframes blurAnimation {
+    0% {
+        backdrop-filter: blur(0px); /* Starting blur */
+    }
+    100% {
+        backdrop-filter: blur(0px); /* Ending blur */
+    }
+}
+
+.content-row {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+
+.row {
+    display: flex; /* Create a flex container for each row */
+    justify-content: space-between; /* Space elements evenly within each row */
+    width: 100%; /* Ensure rows occupy full container width */
+    padding: 0vh; /* Optional: Add spacing between rows */
+}
+
+
+.project-badge {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    padding: 1vh 1vh 1vh 1vh;
+    /* margin-left: 2vh; */
+    /* margin-top: 2vh; */
+    width: 50vh;
+    height: 35vh;
+    border: 5px;
+    border-radius: 10%;
+}

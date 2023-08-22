@@ -1,0 +1,110 @@
+.card-main {
+    position:relative;
+    height: 100%;
+    width: 100%;
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    /* margin: 0 auto; */
+    padding: 1vh 1vh 1vh 1vh;
+    /* opacity: 0.6; */
+    
+    /* background-image: url('../static/images/melgen.png'); */
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(65, 57, 57, 0.687); */
+    border-radius: 10%;
+    /* z-index: -1; */
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Preserve aspect ratio and cover the entire container */
+    border-radius: 10%;
+    filter: blur(0px); /* Apply the initial blur */
+    transition: filter 0.3s;
+}
+
+.front-title {
+    position: absolute;
+    top: 40%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text perfectly */
+    font-size: 8vh;
+    opacity: 1;
+    transition: opacity 0.3s;
+
+}
+
+.card-main:hover > .front-title {
+    opacity: 0;
+}
+
+
+
+.card-main:hover > .image {
+    filter: blur(8px);
+}
+
+
+.text {
+    position: absolute;
+    top: 65%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text perfectly */
+    z-index: 1; /* Place the text above the image */
+    opacity: 0;
+    transition: top 0.3s;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.card-main:hover > .text {
+    top: 45%; /* Vertically center the text */
+    opacity:1;
+
+}
+
+.card-main:hover > .info {
+    opacity: 1;
+    
+}
+
+
+.title {
+    display: flex; /* Use Flexbox */
+    justify-content: center; 
+    align-items: center; /* Horizontally center elements */
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+    font-family: 'Arial', Courier, monospace;
+    font-weight: 800;
+    color: rgb(179, 210, 230);
+    z-index: 1;
+    /* background-image: inherit; */
+}
+
+.info {
+    font-family: 'Arial', Courier, monospace;
+    /* opacity: 0; */
+    transition: opacity 0.3s ease-in-out;
+    
+
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust to your desired height */
+}
+
+
+

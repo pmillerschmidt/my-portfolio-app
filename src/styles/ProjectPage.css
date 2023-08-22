@@ -1,28 +1,34 @@
 .project {
-    /* display: flex; */
-    /* flex-direction: column; */
-    align-items: left;
-    justify-content: left;
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
     /* margin: 0 auto; */
-    width: 1000px;
-    height: 1000px;
-    padding: 0 0 0 0;
-    background-color: #2522ca;
+    width: 100%;
+    height: 100%;
+    /* padding: 1vh 1vh 1vh 1vh; */
+    opacity: 0.6;
+    
+    background-image: url('../static/images/melgen.png');
+    background-size: cover;
+    background-color: rgba(65, 57, 57, 0.687);
+    border-radius: 10%;
+    z-index: -1;
+}
+
+.project-title {
+    display: flex; /* Use Flexbox */
+    justify-content: center; 
+    align-items: center; /* Horizontally center elements */
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(34, 58, 102);
 
 
 }
 
-.project-page {
-    padding-top: 50%;
 
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between; /* Distribute items with space between them */
-  }
-  
-  .item {
-    /* border: 1px solid #ccc; */
-    padding: 10px;
-  }

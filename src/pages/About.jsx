@@ -1,12 +1,16 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Navigate } from 'react-router-dom';
-import {Link} from "react-router-dom";
+import { useEffect } from 'react';
+
 import NavigationBar from '../components/NavigationBar';
 import Mastfoot from '../components/mastfoot';
+import bg from '../static/images/cover_blur.jpg';
 
 function About () {
+  // useEffect(() => {
+  //   document.body.style.backgroundImage = `url(${bg})`;
+  // }, []);
+  
         return (
 <div className="site-wrapper">
   <div className="site-wrapper-inner">
