@@ -1,31 +1,31 @@
 import React from "react";
-import { useEffect } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import NavigationBar from '../components/NavigationBar';
 import Mastfoot from '../components/mastfoot';
-import bg from '../static/images/cover_blur.jpg';
+import ContactForm from '../components/ContactForm';
+import SubmitEmail from '../components/SubmitEmail';
 
-  
 const Contact = () => {
 
-  // useEffect(() => {
-  //   document.body.style.backgroundImage = `url(${bg})`;
-  // }, []);
-  
+  const [submitted, updateSubmitted] = useState(false); // [0, function]
+
+
   return (
-
     <div className="site-wrapper">
-  <div className="site-wrapper-inner">
-    <div className="cover-container">
-      <NavigationBar active_page='Contact' />
-        <div>Contact US</div>
-      <Mastfoot />
-
-      
+      <div className="site-wrapper-inner">
+        <div className="cover-container">
+          <NavigationBar active_page='Contact' />
+          <div className='content'>
+            {/* <ContactForm /> */}
+            {submitted ? <SubmitEmail/> : <ContactForm updateSubmitted={updateSubmitted} />}
+          </div>
+          <Mastfoot />
+        </div>
+      </div>
     </div>
-  </div>
-</div>
   );
-  
+
 };
-  
+
+
 export default Contact;
