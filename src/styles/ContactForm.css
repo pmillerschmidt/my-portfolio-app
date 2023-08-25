@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Popins, sans-serif;
 }
 
 * {
@@ -10,36 +10,44 @@ body {
 }
 
 .contact {
-    min-height: 100vh;
-    padding: 2em;
+    height: 40vh;
+    min-height: 40vh;
+    padding: 1em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;  
     justify-content: center;
     align-items: center;
+    opacity: 1;
     
 }
+/* 
+.contact:hover {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+} */
 
 .contact > div {
-    background: #fff;
-    padding: 2.5em;
+    background: #c9c9c9;
+    padding: 2em;
     border-radius: 10px;
-    box-shadow: 0 0 2em rgba(0,0,0,0.3);
+    box-shadow: 0 0 2em rgba(89, 104, 164, 0.342);
 
 
 }
 
 .contact h1 {
+    font-family: Popins, sans-serif;
     font-size: 2.5em;   
-    color: #747886;
+    color: #435071f7;
 }
 
 .contact p {
-    max-width: 400px;
+    max-width: 100vh;
     line-height: 27px;
-    color: #747886;
-    margin: 1em 0 2em 0;
+    color: #435071f7;
+    margin: 1em 0  1em 0;
 }
 
 
@@ -56,26 +64,28 @@ body {
     padding: 0.8em; 
     width: 100%;
     border-radius: 5px;
-    margin: 0.5em 0 1em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 1.1em;
-    background: #eee;
-    color: #969696;
+    background: #eeeeee;
+    color: #435071f7;
 }
 
 .contact label {
-    color: #747886;
+    color: #435071f7;
     font-weight: 100;
 }
 
 .contact textarea {
     resize: none;
-    height: 8em;
+    height: 5em;
     font-family: sans-serif;
 
 }
 
 .contact input:focus, .contact textarea:focus {
     outline: none;
+    border: 1px solid #2a84c0;
+    box-shadow: 0 0 5px #2a84c0;
 }
 
 .contact input::placeholder, 
@@ -87,7 +97,7 @@ body {
     border: none;
     cursor: pointer;
     padding: 0.8em;
-    background-color: #ff742e;
+    background-color: #5c749b;
     color: #fff;
     border-radius: 8px;
     font-size: 1.2em;
@@ -95,11 +105,38 @@ body {
 }
 
 .contact button:hover {
-    background-color: #e16628;
+    background-color: #2052b6;
 }
 
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 38%;
+}
 /* @media screen and (max-width: 500px) {
     .contact {
         font-size: 14px;
     }
 } */
+
+
+.contact-btn {
+    border: none;
+    cursor: pointer;
+    padding: 0.8em;
+    background-color: #2a84c0;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1.2em;
+    transition: 0.3s;
+    width: 20vh;
+    height: 10vh;
+
+}
+
+.contact-btn:hover {
+    background-color: #607097f7;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { SocialIcon } from 'react-social-icons';
 
 
 class Mastfoot extends Component {
@@ -7,7 +8,7 @@ class Mastfoot extends Component {
         return (
             <div class="mastfoot">
             <div class="inner">
-              <p><a href="https://www.linkedin.com/in/paul-miller-schmidt/">LinkedIn</a> || <a href="https://github.com/paulmillerschmidt">GitHub</a></p>
+              <p><SocialIcon class="icon" url="https://www.linkedin.com/in/paul-miller-schmidt/" />    <SocialIcon class="icon" url="https://github.com/paulmillerschmidt" /></p>
             </div>
             </div>
         );

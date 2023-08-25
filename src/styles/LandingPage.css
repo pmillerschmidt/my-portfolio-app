@@ -1,14 +1,14 @@
 
 .cover-heading {
 
-    font-size: 36px;
+    font-size: 10vh;
 
-    font-weight: 400;
+    font-weight: 600;
 
     /* padding: 20px 0 20px 0; */
 
-    color: #607097f7;
-    font-family: 'Courier New', Courier, monospace; 
+    color: #435071f7;
+    font-family: 'Poppins', sans-serif;
 
     text-align: center;
 
@@ -17,9 +17,9 @@
 }
 
 .h2 {
-    font-size: 25px;
-    color: #607097b1;
-    font-family:'Courier New', Courier, monospace;   
+    font-size: 3vh;
+    color: #36415eb1;
+    font-family: 'Poppins', sans-serif; 
 
 }
 
@@ -37,3 +37,59 @@
     border-radius: 5px;
     margin: 10px;
   }
+
+  .btn2 {
+    background-color: #154ca59e;
+    border: none;
+    color: rgba(161, 196, 211, 0.71);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+.row {
+    display: flex; /* Create a flex container for each row */
+    justify-content: space-between; /* Space elements evenly within each row */
+    width: 100%; /* Ensure rows occupy full container width */
+    padding: 0vh; /* Optional: Add spacing between rows */
+}
+
+
+.block {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    /* padding: 1vh 1vh 1vh 1vh; */
+    /* margin-left: 2vh; */
+    margin-bottom: 5vh;
+    width: 10vh;
+    height: 35vh;
+    border: 1vh;
+    border-radius: 10%;
+}
+
+img {
+  max-width: 100%; /* Ensure the image width doesn't exceed the div's width */
+  max-height: 100%; /* Ensure the image height doesn't exceed the div's height */
+  display: block; /* Remove any default inline spacing */
+  margin: 0 auto; /* Center the image horizontally (optional) */
+}
+
+.icon {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #5468a8d7;
+  /* border: 1px solid #fff; */
+}
+

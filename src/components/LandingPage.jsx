@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 //import bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/LandingPage.css"
-import {Link} from "react-router-dom";
-
+import {Link} from "react-router-dom"
 
 
 class LandingPage extends Component {
@@ -17,21 +16,33 @@ class LandingPage extends Component {
               position: "absolute",
               top: "50%",
               left: "50%",
-              transform: "translate(-50%, -50%)"
+              transform: "translate(-45%, -60%)"
             }}
           >
-            <div>
+              <div class="row">
+                <div class="block"> 
+                
                 <h1 class="cover-heading">
-                    <p>Paul Miller-Schmidt</p>
-                    <p class="h2">Musician | Software Engineer | Educator</p>
-                    </h1>
+                    <p>Hello, I'm Paul Miller-Schmidt</p>
+                    <p class="h2">Musician | Software Engineer | Educator | Yale CS Grad</p>
+                  </h1>
                
-                {/* <p class="lead">In a world of points and pixels, it is important to bring life to our machines. 
-</p> */}
                 <p class="lead">
-                <Link to="/About" class="btn btn-lg btn-default btn1">Learn More</Link>
+                
+                
+                <Link to="/About" class="btn btn-default btn2">Learn More</Link>
+                <Link to="/Projects" class="btn btn-default btn2">Projects</Link>
                 </p>
-      </div>
+                
+
+                </div>
+                <div class="block"> 
+                {/* <img src={bg} alt="SWE"/> */}
+                </div>
+              
+
+                </div>
+
 
           </div>
         );

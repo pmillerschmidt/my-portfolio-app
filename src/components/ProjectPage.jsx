@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import '../styles/ProjectPage.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 // import MediaCard from './MediaCard';
-import mg from '../static/images/melgen.png';
-import ReactImg from '../static/images/melgen.png';
 import { CCard, CCardBody, CCardImage, CCardTitle, CCardText, CButton } from '@coreui/react';
 // import '@coreui/coreui/dist/css/coreui.min.css';
 

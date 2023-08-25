@@ -55,7 +55,8 @@ body {
 body {
   /* color: #401717; */
   height: 100%;
-  background: url(static/images/cover.jpg) no-repeat center center fixed; 
+  background: url(static/images/splash.jpg) no-repeat center center fixed;
+  /* filter: contrast(20%);  */
   /* filter: blur(10px); Apply the initial blur */
   /* animation: unblurBackground 2s forwards; */
   -webkit-background-size: cover;
@@ -64,7 +65,7 @@ body {
   background-size: cover;
   /* background-image: url("../static/images/landing.jpg"); */
   text-align: center;
-  text-shadow: 0 1px 3px rgba(124, 77, 77, 0.5);
+  /* text-shadow: 0 1px 3px rgba(255, 255, 255, 0.5); */
 }
 
 
@@ -75,8 +76,8 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(168, 92, 92, 0.5);
-  box-shadow: inset 0 0 100px rgba(157, 87, 87, 0.5);
+  -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.5);
 }
 .site-wrapper-inner {
   display: table-cell;

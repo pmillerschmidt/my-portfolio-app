@@ -21,17 +21,14 @@ function Home() {
   // }, []);
 
   return (
-    <div>
-    <div class="background">
-      <img src={bg} alt="Background Image" />
-      </div>
+
         
     
-    <div class="site-wrapper">
+    <div className="site-wrapper">
 
-      <div class="site-wrapper-inner">
+      <div className="site-wrapper-inner">
 
-        <div class="cover-container">
+        <div className="cover-container">
     
           <NavigationBar active_page='Home' />
           <LandingPage />         
@@ -41,7 +38,6 @@ function Home() {
             </div>
           </div>
           </div>
-      </div>
 
   );
 }

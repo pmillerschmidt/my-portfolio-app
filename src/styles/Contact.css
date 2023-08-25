@@ -1,34 +1,85 @@
 /* Contact.css */
 
-.contact {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
+.container-main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100%;
+    width: 100%;
+}
+/* 
+.left-col {
+    float: left;
+    width: 30%;
+
+} */
+
+.content {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vh;
+    width: 85%;
+    height: 80vh;
+    font-family: 'Poppins', sans-serif; 
+    backdrop-filter: blur(0px);
+    animation: blurAnimation 4s forwards;
+    /* background-color: rgba(0, 0, 0, 0.61); */
+    border: 5px solid rgba(242, 242, 242, 0);
+    border-radius: 10%;
+    
 }
 
-.form-group {
-  margin-bottom: 20px;
+
+.row {
+    display: flex; /* Create a flex container for each row */
+    justify-content: space-between; /* Space elements evenly within each row */
+    width: 100%; /* Ensure rows occupy full container width */
+    padding: 0vh; /* Optional: Add spacing between rows */
 }
 
-label {
-  display: block;
-  font-weight: bold;
+
+.block {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    /* padding: 1vh 1vh 1vh 1vh; */
+    /* margin-left: 2vh; */
+    /* margin-top: 2vh; */
+    width: 100vh;
+    height: 35vh;
+    border: 1vh;
+    border-radius: 10%;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.connect {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    position: sticky;
+    /* padding: 1vh 1vh 1vh 1vh; */
+    top: 30%;
+    left: 90%;
+    transform: translate(-8%, -70%);
+    width: 70%;
+    /* margin-left: 2vh; */
+    /* margin-top: 2vh; */
+
 }
 
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
+.connect h1 {
+    font-size: 5vh;
+    font-weight: 500;
+    color: #435071f7;
+}
+
+.connect p {
+    font-size: 2vh;
+    color: #435071f7;
 }
