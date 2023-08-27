@@ -9,3 +9,16 @@
     align-items: center;
     
 }
+
+.submit-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vh;
+    color: #344980f7;
+    text-align: center;
+}
+.email-gif {
+    width: 60%;
+    height: auto;
+    padding: 2em;
+
+}

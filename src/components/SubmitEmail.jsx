@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/SubmitEmail.css'
-
+import eg from '../static/images/rocket.gif';
 
 class SubmitEmail extends Component {
     state = {  } 
@@ -8,7 +8,9 @@ class SubmitEmail extends Component {
         return (
             <section class="contact">
                 <div>
-                    <h1>Submitted!</h1>
+                    <h1 className="submit-text">Submitted!</h1>
+                    <img src={eg} alt='sent email' className='email-gif'></img>
+                    <button className='btn btn-primary' onClick={() => window.location.reload(false)}>Send another</button>
                 </div>
             </section>
 

@@ -9,6 +9,7 @@ import LandingPage from '../components/LandingPage';
 import BouncingBall from '../components/BouncingBall';
 import Mastfoot from '../components/mastfoot';
 import '../styles/Home.css';
+import PreloadImages from '../components/PreloadImages';
 // background
 import bg from '../static/images/cover.jpg';
 
@@ -20,6 +21,8 @@ function Home() {
   //   document.body.style.backgroundImage = `url(${bg})`;
   // }, []);
 
+
+
   return (
 
         
@@ -30,11 +33,12 @@ function Home() {
 
         <div className="cover-container">
     
-          <NavigationBar active_page='Home' />
-          <LandingPage />         
+          
+          <LandingPage /> 
+          <NavigationBar active_page='Home' />        
           <Mastfoot />
          
-
+          
             </div>
           </div>
           </div>

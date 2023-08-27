@@ -27,7 +27,7 @@ function Projects() {
     <div className="cover-container">
     
      
-    <NavigationBar active_page='Projects'/>
+    
     <div className='content'>
 
       <div className='row'> 
@@ -59,7 +59,7 @@ function Projects() {
         </div>
       </div>
     </div>
-
+      <NavigationBar active_page='Projects'/>
       <Mastfoot />
       </div>
 

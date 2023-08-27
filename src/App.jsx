@@ -5,6 +5,7 @@ import React from 'react';
 import reportWebVitals from './reportWebVitals';
 //import bootstrap stuff
 import 'bootstrap/dist/css/bootstrap.min.css';
+import PreloadImages from './components/PreloadImages';
 
 //routing 
 // importing components from react-router-dom package
