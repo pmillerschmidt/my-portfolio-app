@@ -12,6 +12,7 @@ import '../styles/Home.css';
 import PreloadImages from '../components/PreloadImages';
 // background
 import bg from '../static/images/cover.jpg';
+import Socials from '../components/Socials';
 
 
 
@@ -35,8 +36,8 @@ function Home() {
     
           
           <LandingPage /> 
-          <NavigationBar active_page='Home' />        
-          <Mastfoot />
+          <Socials />
+          <NavigationBar active_page='Home' />   
          
           
             </div>

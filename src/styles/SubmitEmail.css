@@ -1,21 +1,30 @@
-.contact {
+.sent {
     min-height: 100vh;
-    padding: 2em;
+    padding: 2em;   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;  
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 1.9vh; */
     
 }
 
-.submit-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1vh;
+.sent h1{
+    font-size: 4vh;    
     color: #344980f7;
     text-align: center;
 }
+
+.sent p {
+    font-size: 1.9vh;
+    color: #344980f7;
+    text-align: center;
+
+}
+
 .email-gif {
     width: 60%;
     height: auto;

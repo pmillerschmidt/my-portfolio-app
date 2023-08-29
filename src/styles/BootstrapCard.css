@@ -124,6 +124,11 @@
     cursor: pointer;
     border-radius: 5px;
     margin: 10px;
+    border: 1px solid rgba(251, 251, 251, 0);
+  }
+
+.btn3:hover {
+    border: 1px solid rgb(251, 251, 251, 1);
   }
 
 /* Custom default button */

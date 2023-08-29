@@ -22,7 +22,7 @@ class BootstrapCard extends React.Component {
         <div className="text">
             <h5 class="title">{this.props.title}</h5>
             <p className="info">{this.props.info}</p>
-            <button type="button" className="btn btn-default btn3">
+            <button type="button" className="btn btn3">
                 <a href={this.props.link}>Learn More</a>
             </button>
        </div>

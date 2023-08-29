@@ -4,6 +4,7 @@ import React from 'react';
 import NavigationBar from '../components/NavigationBar';
 import Mastfoot from '../components/mastfoot';
 import ProjectPage from '../components/ProjectPage';
+import Socials from "../components/Socials";
 import '../styles/Projects.css';
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -16,6 +17,7 @@ import cg from '../static/images/chess.jpg';
 import gb from '../static/images/groove_blocks.png';
 import wh from '../static/images/walk-home.png';
 import BootstrapCard from '../components/BootstrapCard';
+
 
 function Projects() {
 
@@ -59,8 +61,9 @@ function Projects() {
         </div>
       </div>
     </div>
+      <Socials />
       <NavigationBar active_page='Projects'/>
-      <Mastfoot />
+      
       </div>
 
     </div>

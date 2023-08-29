@@ -15,38 +15,25 @@ class LandingPage extends Component {
             style={{
               position: "absolute",
               top: "50%",
-              left: "50%",  
-              transform: "translate(-45%, -60%)"
+              left: "8%",  
+              transform: "translate(0%, -60%)"
             }}
           >
-              <div class="row">
-                <div class="block"> 
-                
+
                 <h1 class="cover-heading">
-                    <p>Hello, I'm Paul Miller-Schmidt</p>
-                    <p class="h2">Software Engineer | Yale CS Grad | Musician | Educator</p>
+                    <p>Paul Miller-Schmidt</p>
+                    <p class="h2">Musician | Software Engineer | Educator</p>
                   </h1>
                
                 <p class="lead">
+
                 
-                
-                
-                <Link to="/Projects" class="btn btn-default btn2">Projects</Link>
+                <Link to="/Projects" class="btn btn2">Projects</Link>
                 {/* <Link to="/Projects" class="btn btn-default btn2">Resume</Link> */}
-                <a href={cv} class="btn btn-default btn2" download>Download CV</a>
+                <a href={cv} class="btn btn2" download>Download CV</a>
                 
                 </p>
                 
-
-                </div>
-                <div class="block"> 
-                {/* <img src={bg} alt="SWE"/> */}
-                </div>
-              
-
-                </div>
-
-
           </div>
         );
     };

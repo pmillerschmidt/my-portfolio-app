@@ -13,6 +13,10 @@
     background-color: #4972b3ad;
     color: white;
     font: 'Courier New', Courier, monospace;
+    border: 1px solid #ffffff00;
 
+}
 
+.btn-bold:hover {
+    border: 1px solid #ffffff;
 }

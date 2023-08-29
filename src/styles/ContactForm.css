@@ -10,8 +10,9 @@ body {
 }
 
 .contact {
-    height: 40vh;
-    min-height: 40vh;
+    height: 75%;
+    /* min-height: 40vh; */
+    width: 100%;
     padding: 1em;
     background-size: cover;
     background-position: center;
@@ -20,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 1;
+    margin-top: 40px;
     
 }
 /* 
@@ -68,6 +70,7 @@ body {
     font-size: 1.1em;
     background: #eeeeee;
     color: #435071f7;
+    border: 1px solid #2a84c000;
 }
 
 .contact label {
@@ -78,7 +81,6 @@ body {
 .contact textarea {
     resize: none;
     height: 5em;
-    font-family: sans-serif;
 
 }
 

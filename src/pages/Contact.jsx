@@ -11,10 +11,28 @@ import NavigationBar from '../components/NavigationBar';
 import Mastfoot from '../components/mastfoot';
 import ContactForm from '../components/ContactForm';
 import SubmitEmail from '../components/SubmitEmail';
+import Socials from "../components/Socials";
 
 const Contact = () => {
 
   const [submitted, updateSubmitted] = useState(false); // [0, function]
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  
+    useEffect(() => {
+      // Function to update window width in state
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+  
+      // Add an event listener for window resize
+      window.addEventListener('resize', handleResize);
+  
+      // Clean up the event listener when the component unmounts
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
 
 
   return (
@@ -22,7 +40,7 @@ const Contact = () => {
       <div className="site-wrapper-inner">
         <div className="cover-container">
           
-           
+           {windowWidth >= 1000 ? ( 
             <div className="content">
             <div className='row'> 
               <div className="block">
@@ -36,12 +54,19 @@ const Contact = () => {
             {submitted ? <SubmitEmail/> : <ContactForm updateSubmitted={updateSubmitted} />}
             </div>
             </div>
-
-
             </div>
-          
+            ) : (
+              <div className="content">
+              <div className="block">
+            {submitted ? <SubmitEmail/> : <ContactForm updateSubmitted={updateSubmitted} />}
+            </div>
+            </div>
+            )}
+
+
+          <Socials />
           <NavigationBar active_page='Contact' />
-          <Mastfoot />
+          
         </div>
       </div>
     </div>
