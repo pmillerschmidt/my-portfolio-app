@@ -21,6 +21,11 @@ import BootstrapCard from '../components/BootstrapCard';
 
 function Projects() {
 
+    useEffect(() => {
+      document.title = 'Projects';
+    }, []);
+
+
         return (
          
 

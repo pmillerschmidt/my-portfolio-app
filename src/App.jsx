@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 //import bootstrap stuff
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PreloadImages from './components/PreloadImages';
+import { useTitle } from './components/useTitle';
 
 //routing 
 // importing components from react-router-dom package

@@ -18,6 +18,11 @@ const Contact = () => {
   const [submitted, updateSubmitted] = useState(false); // [0, function]
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+      document.title = 'Contact';
+    }, []);
+
   
     useEffect(() => {
       // Function to update window width in state

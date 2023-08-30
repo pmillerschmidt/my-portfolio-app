@@ -13,6 +13,7 @@ import PreloadImages from '../components/PreloadImages';
 // background
 import bg from '../static/images/cover.jpg';
 import Socials from '../components/Socials';
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -21,7 +22,9 @@ function Home() {
   // useEffect(() => {
   //   document.body.style.backgroundImage = `url(${bg})`;
   // }, []);
-
+  useEffect(() => {
+    document.title = 'Home';
+  }, []);
 
 
   return (

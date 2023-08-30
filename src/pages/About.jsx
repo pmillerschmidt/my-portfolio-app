@@ -10,6 +10,11 @@ import '../styles/About.css';
 const About = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+      document.title = 'About';
+    }, []);
+  
   
     useEffect(() => {
       // Function to update window width in state
