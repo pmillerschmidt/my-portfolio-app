@@ -78,7 +78,7 @@
 }
 
 .about-section, .about-center p {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 550;
     color: #415071;
     /* margin-bottom: 1vh; */
@@ -123,9 +123,16 @@
     border-radius: 10%;
     filter: blur(0px) contrast(120%) brightness(100%); /* Apply the initial blur */
     transition: filter 0.4s;
+    opacity:0;
+    animation: rise 1s forwards;
 }
 
+@keyframes rise {
 
+    to {
+        opacity: 1;
+    }
+}
 /* img:hover {
     filter: blur(8px) contrast(80%) brightness(50%);
 } */
@@ -137,4 +144,25 @@
     width: 100%; /* Set the width of the line */
     margin-top: 0.5vh; /* Add spacing above and below the line */
     margin-bottom: 2vh;
+  }
+
+  .read-more-blur {
+    position: absolute;
+    width:100%;
+    height: 15%;
+    bottom:0;
+    border: 1px solid #435071e0;
+    z-index: 1;
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    text-align: center;
+
+    color: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    background-size: cover;
+    background-position: center;
+    /* color: #435071e0; */
+    backdrop-filter: blur(5px) grayscale(100%);
+    background-color: #4f77ceb3;
+
   }

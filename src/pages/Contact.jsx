@@ -46,7 +46,7 @@ const Contact = () => {
         <div className="cover-container">
           
            {windowWidth >= 1000 ? ( 
-            <div className="content">
+            <div className="contact-content">
             <div className='row'> 
               <div className="block">
               <div className="connect">
