@@ -4,7 +4,8 @@ import {Link} from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 //import bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../styles/navbar.css"
+import "../styles/navbar.css";
+import { SocialIcon } from 'react-social-icons';
 
 
 const NavigationBar = (page) => {
@@ -21,6 +22,7 @@ const NavigationBar = (page) => {
               <li className={page.active_page === "About" ? "active" : " "}> <Link to="/About">About</Link> </li>
               <li className={page.active_page === "Projects" ? "active" : ""}><Link to="/Projects">Projects</Link></li>
               <li className={page.active_page === "Contact" ? "active" : ""}><Link to="/Contact">Contact</Link></li> 
+              
             </ul>
           </nav>
         </div>

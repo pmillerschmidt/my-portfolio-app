@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PreloadImages from './components/PreloadImages';
 import { useTitle } from './components/useTitle';
-
+import ImagePreloader from './components/ImagePreloader';
 //routing 
 // importing components from react-router-dom package
 import {
@@ -25,7 +25,10 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    
+
+    <div> 
+    <ImagePreloader src="./static/images/bio.png" alt="Image" />
+
     <Router>
       <Routes>
         
@@ -37,6 +40,7 @@ function App() {
         {/* <Route path="/" /> */}
       </Routes>
   </Router>
+  </div>
 
   );
 }

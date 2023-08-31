@@ -12,9 +12,10 @@
     padding: 2vh;
     width: 85%;
     height: 80vh;
-    backdrop-filter: blur(0px);
+    
     opacity: 0;
     animation: rise 1s forwards;
+    
     
     /* background-color: rgba(0, 0, 0, 0.61); */
     border: 5px solid rgba(242, 242, 242, 0);
@@ -61,4 +62,20 @@
     height: 35vh;
     border: 5px;
     border-radius: 10%;
+}
+
+.background-blur {
+    
+    display: flex; /* Use Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center elements */
+    align-items: center; /* Horizontally center elements */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(100px);
+    
 }

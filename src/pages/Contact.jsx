@@ -44,6 +44,7 @@ const Contact = () => {
     <div className="site-wrapper">
       <div className="site-wrapper-inner">
         <div className="cover-container">
+          <div className="background-blur">
           
            {windowWidth >= 1000 ? ( 
             <div className="contact-content">
@@ -69,9 +70,9 @@ const Contact = () => {
             )}
 
 
-          <Socials />
+
           <NavigationBar active_page='Contact' />
-          
+          </div>
         </div>
       </div>
     </div>

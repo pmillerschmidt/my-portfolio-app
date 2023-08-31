@@ -19,13 +19,12 @@
     justify-content: center; /* Vertically center elements */
     align-items: center; /* Horizontally center elements */
     position: absolute;
-    top: 52%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2vh;
     width: 85%;
     height: 80vh;
-    backdrop-filter: blur(0px);
     opacity: 1;
     /* animation: rise 1s forwards; */
     
@@ -65,10 +64,10 @@
     align-items: center; /* Horizontally center elements */
     position: sticky;
     /* padding: 1vh 1vh 1vh 1vh; */
-    top: 30%;
-    left: 90%;
-    transform: translate(-8%, -70%);
-    width: 100%;
+    top: 0%;
+    left: 100%;
+    /* transform: translate(-8%, -70%); */
+    width: 80%;
     /* margin-left: 2vh; */
     /* margin-top: 2vh; */
 
@@ -84,3 +83,4 @@
     font-size: 2.5vh;
     color: #435071f7;
 }
+

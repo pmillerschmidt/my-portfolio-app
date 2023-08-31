@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react';
 
 import NavigationBar from '../components/NavigationBar';
 import Mastfoot from '../components/mastfoot';
-import bio from '../static/images/bio.png'
+import bio from '../static/images/bio.webp'
 import '../styles/About.css';
+import VideoBackground from '../components/VideoBackground';
 
 const About = () => {
 
@@ -85,11 +86,9 @@ const About = () => {
             )}
         </div>
         <NavigationBar active_page='About' />
-        <Mastfoot />
       </div>
     </div>
   </div>
-
 
     );
 

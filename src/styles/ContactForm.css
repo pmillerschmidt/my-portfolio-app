@@ -60,7 +60,7 @@ body {
 }
 
 .contact input, .contact textarea {
-    border: none;
+    border: 1px solid #2a84c000;
     padding: 0.8em; 
     width: 100%;
     border-radius: 5px;

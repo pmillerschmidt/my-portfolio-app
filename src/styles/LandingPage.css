@@ -7,7 +7,7 @@
 
     /* padding: 20px 0 20px 0; */
 
-    color: #435071f7;
+    color: #394668;
     font-family: 'Poppins', sans-serif;
 
     text-align: center;
@@ -17,25 +17,27 @@
 }
 
 .lp-container {
-  position: "absolute";
-  top: "70%";
-  left: "8%";
-  /* transform: "translate(-20%, -60%)"; */
-  animation: fade-in 1.2s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  /* margin-right: 10%; */
+  /* transform: translate(20%, 90%); */
+  animation: fade-in 2.2s ease-in-out forwards; 
   opacity: 0;
 }
 
 @keyframes fade-in {
   to {
       opacity: 1;
-      top: 45%;
+      left: 45%;
+      /* transform: translate(40%, 80%); */
   }
 }
 
 
 .h2 {
     font-size: 25px;
-    color: #36415eb1;
+    color: #36415ed0;
     font-family: 'Poppins', sans-serif; 
 
 }

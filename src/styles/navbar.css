@@ -53,8 +53,7 @@ a:hover {
   font-family: 'Poppins', sans-serif; 
   font-size: 16px;
   font-weight: 700;
-  color: #486eacfe;; /* IE8 proofing */
-  color: #4e5d83;
+  color: #2c456de2;; /* IE8 proofing */
   transition: color .2s ease-in-out;
   border-bottom: 2px solid transparent;
 }
@@ -67,8 +66,8 @@ a:hover {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #768abb;
-  border-bottom-color: #99afdb;
+  color: #1c2c55;
+  border-bottom-color: #182031;
 }
 
 @media (min-width: 768px) {

@@ -13,7 +13,10 @@ import PreloadImages from '../components/PreloadImages';
 // background
 import bg from '../static/images/cover.jpg';
 import Socials from '../components/Socials';
+import ImagePreloader from '../components/ImagePreloader';
 import { Helmet } from 'react-helmet-async';
+import VideoBackground from '../components/VideoBackground';
+
 
 
 
@@ -29,21 +32,24 @@ function Home() {
 
   return (
 
-        
-    
-    <div className="site-wrapper">
+    <div>
+      {/* <div className="background"> */}
+      <VideoBackground />
 
+    <div className="site-wrapper">
+      
       <div className="site-wrapper-inner">
 
         <div className="cover-container">
     
-          
+        <ImagePreloader src="./static/images/bio.png" alt="Image" />
           <LandingPage /> 
           <Socials />
           <NavigationBar active_page='Home' />   
          
           
             </div>
+          </div>
           </div>
           </div>
 

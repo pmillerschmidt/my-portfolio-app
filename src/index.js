@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 //import bootstrap stuff
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PreloadImages from './components/PreloadImages';
+import bv from './static/videos/bv.mp4';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,7 +30,6 @@ root.render(
 
   <App />
   <PreloadImages />
-         
   </React.StrictMode>
 );
 
