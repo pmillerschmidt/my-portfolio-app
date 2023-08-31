@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d084579e.css",
-    "main.js": "/static/js/main.9961cb62.js",
+    "main.css": "/static/css/main.f384204b.css",
+    "main.js": "/static/js/main.47983bc9.js",
     "static/js/787.3c86a6c9.chunk.js": "/static/js/787.3c86a6c9.chunk.js",
+    "static/media/bv.mp4": "/static/media/bv.8bbaaacbcec739bf75e5.mp4",
     "static/media/bio.png": "/static/media/bio.2450f41a5c11a64d48e9.png",
+    "static/media/bvp.png": "/static/media/bvp.7f0cd1b9071e13ce015e.png",
     "static/media/groove_blocks.png": "/static/media/groove_blocks.2d4df16e985476f470e2.png",
     "static/media/cover.jpg": "/static/media/cover.cbbc22095cfcc1cc6294.jpg",
+    "static/media/bio.webp": "/static/media/bio.7b2be58e5ab58003bea6.webp",
     "static/media/rocket.gif": "/static/media/rocket.53ad586edd192fe58e03.gif",
     "static/media/portfolio.png": "/static/media/portfolio.c6abe06326e490102221.png",
+    "static/media/chess-robot.png": "/static/media/chess-robot.18496f29100d7d63605a.png",
     "static/media/music-logic.png": "/static/media/music-logic.a9b6b4f974a3809b8119.png",
     "static/media/PM-CV.pdf": "/static/media/PM-CV.0f0926c044d6c9f911b1.pdf",
     "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
@@ -15,17 +19,16 @@
     "static/media/walk-home.png": "/static/media/walk-home.9f504ad2971f7b291010.png",
     "static/media/ai_music.jpg": "/static/media/ai_music.6bf624d5540f701537ec.jpg",
     "static/media/glyphicons-halflings-regular.ttf": "/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
-    "static/media/splash.jpg": "/static/media/splash.2ee5aee914723684aca0.jpg",
     "static/media/glyphicons-halflings-regular.woff": "/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
     "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
     "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/index.html",
-    "main.d084579e.css.map": "/static/css/main.d084579e.css.map",
-    "main.9961cb62.js.map": "/static/js/main.9961cb62.js.map",
+    "main.f384204b.css.map": "/static/css/main.f384204b.css.map",
+    "main.47983bc9.js.map": "/static/js/main.47983bc9.js.map",
     "787.3c86a6c9.chunk.js.map": "/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d084579e.css",
-    "static/js/main.9961cb62.js"
+    "static/css/main.f384204b.css",
+    "static/js/main.47983bc9.js"
   ]
 }
