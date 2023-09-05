@@ -13,7 +13,7 @@ const NavigationBar = (page) => {
   // console.log(active_page.target === "Home"); 
 
   return (
-      <div className="masthead clearfix">
+      <div className="masthead">
         <div className="inner">
           <nav>
             <ul className="nav masthead-nav">

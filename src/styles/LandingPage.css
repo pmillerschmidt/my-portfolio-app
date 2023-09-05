@@ -16,14 +16,29 @@
 
 }
 
-.lp-container {
-  position: fixed;
-  top: 25%;
-  left: 35%;
-  /* margin-right: 10%; */
-  /* transform: translate(20%, 90%); */
-  animation: fade-in 2.2s ease-in-out forwards; 
-  opacity: 0;
+@media (min-width: 1200px) {
+  .lp-container {
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    margin-right: 10%;
+    /* transform: translate(20%, 90%); */
+    animation: fade-in 2.2s ease-in-out forwards; 
+    opacity: 0;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1200px){
+  .lp-container {
+    position: absolute;
+    width: 80%;
+    top: 30%;
+    left: 10%;
+    /* margin-right: 10%; */
+    /* transform: translate(50%, 50%); */
+    /* animation: fade-in 2.2s ease-in-out forwards;  */
+    opacity: 1;
+  }
 }
 
 @keyframes fade-in {

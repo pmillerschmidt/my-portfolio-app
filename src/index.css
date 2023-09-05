@@ -37,7 +37,7 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #8996c1cb;
+  /* background-color: #8996c1cb; */
   /* border: 1px solid #fff; */
 }
 
@@ -49,8 +49,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  /* background-color: #3c8f8f; */
-  /* background-color: #401717; */
 }
 body {
   /* color: #401717; */

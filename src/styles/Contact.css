@@ -19,7 +19,7 @@
     justify-content: center; /* Vertically center elements */
     align-items: center; /* Horizontally center elements */
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2vh;
@@ -55,7 +55,19 @@
     height: 80%;
     border: 1vh;
     border-radius: 10%;
+    animation: breathIn 1s forwards;
+    opacity:0;
 }
+
+@keyframes breathIn {
+
+    to {
+        /* backdrop-filter: blur(30px) contrast(90%) brightness(110%); */
+        opacity:1;
+    }
+    
+}
+
 
 .connect {
     display: flex; /* Use Flexbox */

@@ -87,6 +87,7 @@ const About = () => {
         </div>
         <NavigationBar active_page='About' />
       </div>
+     
     </div>
   </div>
 

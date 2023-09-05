@@ -71,8 +71,9 @@ const Contact = () => {
 
 
 
-          <NavigationBar active_page='Contact' />
+         
           </div>
+          <NavigationBar active_page='Contact' />
         </div>
       </div>
     </div>
