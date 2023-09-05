@@ -15,6 +15,7 @@
     background-position: center;
     /* background-color: rgba(65, 57, 57, 0.687); */
     border-radius: 10%;
+    
     /* z-index: -1; */
 }
 
@@ -46,11 +47,13 @@
     border-radius: 10%;
     filter: blur(0px) contrast(70%) brightness(100%); /* Apply the initial blur */
     /* filter: contrast(50%); */
-    transition: filter 0.4s;
+    transition: filter 0.4s, width 1s;
+    box-shadow: 5px 5px 4px rgba(60, 67, 104, 0.617);
 }
 
 .card-main:hover > .image {
     filter: blur(8px) contrast(80%) brightness(50%);
+    width: 80%
 }
 
 

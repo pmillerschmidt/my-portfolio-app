@@ -38,7 +38,6 @@ const About = () => {
       <div className="cover-container">
       
         
-
           <div className="about">
             {windowWidth >= 1200 ? (
               <div className='about-row'> 

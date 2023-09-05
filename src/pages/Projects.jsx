@@ -42,13 +42,11 @@ const Projects = () => {
     <div className="cover-container">
     
      
-    <div className="background-blur">
     {windowWidth >= 768 ? (<ProjectWide />) : (<ProjectThin />)}
-      </div>
     <NavigationBar active_page='Projects'/>
+      </div>
+   
     </div>
-    
-  </div>
   </div>
   
 
