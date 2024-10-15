@@ -57,10 +57,10 @@ const About = () => {
                 I built numerous automated and responsive musical generation tools. In <strong><i>Natural Language
                     Processing</i> (TensorFlow, Word2Vec, Keras)</strong>, I designed sequence-to-sequence text models
                 using RNNs, LSTMs, and Transformers.</p>
-            <p>Alongside internships at startups, I explored entrepreneurship by founding Grooveblocks, an edtech
+            <p>Alongside internships at startups, I explored entrepreneurship by founding <strong>Grooveblocks</strong>, an edtech
                 company focused on making music education more accessible through a composition-based approach and
                 combinatory instruments. I developed hardware prototypes, an Android app, and a formal pedagogy. I also
-                co-founded Elite Suite Tutoring to address the educational gap left by virtual learning during the
+                co-founded <strong>Elite Suite Tutoring</strong> to address the educational gap left by virtual learning during the
                 pandemic.</p>
             <p>In my free time, I enjoy producing music, DJing, writing and performing comedy sketches, and skiing (this
                 photo was taken when I worked as a lift attendant in Colorado).</p>
