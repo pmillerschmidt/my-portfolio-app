@@ -8,7 +8,7 @@ import bio from '../static/images/bio.png';
 
 // PreloadImages.js
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 function PreloadImages() {
   useEffect(() => {

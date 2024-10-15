@@ -10,7 +10,6 @@ const Socials = () => {
       };
     
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const breakpoint = 768;
 
     useEffect(() => {
         const handleResize = () => {setWindowWidth(window.innerWidth);};
