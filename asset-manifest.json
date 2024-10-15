@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fad61363.css",
-    "main.js": "/static/js/main.756aa874.js",
+    "main.css": "/static/css/main.43b05bfe.css",
+    "main.js": "/static/js/main.65489f8a.js",
     "static/js/453.1d9b6421.chunk.js": "/static/js/453.1d9b6421.chunk.js",
     "static/media/bv.mp4": "/static/media/bv.8bbaaacbcec739bf75e5.mp4",
     "static/media/bio.png": "/static/media/bio.2450f41a5c11a64d48e9.png",
     "static/media/bvp.png": "/static/media/bvp.7f0cd1b9071e13ce015e.png",
     "static/media/groove_blocks.png": "/static/media/groove_blocks.2d4df16e985476f470e2.png",
-    "static/media/bio.webp": "/static/media/bio.7b2be58e5ab58003bea6.webp",
     "static/media/bvpi.png": "/static/media/bvpi.41ab37734e96a82c944f.png",
     "static/media/rocket.gif": "/static/media/rocket.53ad586edd192fe58e03.gif",
     "static/media/portfolio.png": "/static/media/portfolio.c6abe06326e490102221.png",
     "static/media/chess-robot.png": "/static/media/chess-robot.18496f29100d7d63605a.png",
-    "static/media/PM-CV.pdf": "/static/media/PM-CV.f1a747419dd2c622b21b.pdf",
+    "static/media/PM-CV.pdf": "/static/media/PM-CV.57e79537fbd32ac048f5.pdf",
     "static/media/music-logic.png": "/static/media/music-logic.a9b6b4f974a3809b8119.png",
     "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
     "static/media/chess.jpg": "/static/media/chess.60ecad27f0dd83293f5e.jpg",
@@ -24,12 +23,12 @@
     "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
     "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/index.html",
-    "main.fad61363.css.map": "/static/css/main.fad61363.css.map",
-    "main.756aa874.js.map": "/static/js/main.756aa874.js.map",
+    "main.43b05bfe.css.map": "/static/css/main.43b05bfe.css.map",
+    "main.65489f8a.js.map": "/static/js/main.65489f8a.js.map",
     "453.1d9b6421.chunk.js.map": "/static/js/453.1d9b6421.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fad61363.css",
-    "static/js/main.756aa874.js"
+    "static/css/main.43b05bfe.css",
+    "static/js/main.65489f8a.js"
   ]
 }
