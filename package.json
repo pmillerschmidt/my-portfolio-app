@@ -76,8 +76,17 @@
   
     
   "deploy": "gh-pages -d build",
-  
-    
+
+
+  "clean-root": "rm -rf static && rm -rf *.html *.json *.js *.css *.map",
+
+
+  "move-build": "cp -r build/* ./ && rm -rf build",
+
+
+  "deploy-to-root": "npm run build && npm run clean-root && npm run move-build",
+
+
   "start": "react-scripts start",
   
     
