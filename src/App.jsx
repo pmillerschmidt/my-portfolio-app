@@ -2,11 +2,8 @@
 import './App.css';
 import React from 'react';
 
-import reportWebVitals from './reportWebVitals';
 //import bootstrap stuff
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PreloadImages from './components/PreloadImages';
-import { useTitle } from './components/useTitle';
 import ImagePreloader from './components/ImagePreloader';
 //routing 
 // importing components from react-router-dom package
@@ -37,7 +34,6 @@ function App() {
         <Route path="/About" element={<About/>} />
         <Route path="/Projects" element={<Projects/>} />
         <Route path="/Contact" element={<Contact/>} />
-        {/* <Route path="/" /> */}
       </Routes>
   </Router>
   </div>

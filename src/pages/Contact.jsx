@@ -1,17 +1,12 @@
 import React from "react";
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 
 //import bootstrap stuff
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import "../styles/Contact.css"
 
 import NavigationBar from '../components/NavigationBar';
-import Mastfoot from '../components/mastfoot';
 import ContactForm from '../components/ContactForm';
 import SubmitEmail from '../components/SubmitEmail';
-import Socials from "../components/Socials";
 
 const Contact = () => {
 

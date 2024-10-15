@@ -1,16 +1,12 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
-import { NavLink } from 'react-router-dom';
 //import bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/navbar.css";
-import { SocialIcon } from 'react-social-icons';
 
 
 const NavigationBar = (page) => {
-  // console.log(page.active_page === "Home");
-  // console.log(active_page.target === "Home"); 
 
   return (
       <div className="masthead">

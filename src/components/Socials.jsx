@@ -24,7 +24,7 @@ const Socials = () => {
             {windowWidth >= 1000 ? (
             
                 <p>
-                    <SocialIcon target="_blank" class="icon" style={linkedInIconStyle} url="https://www.linkedin.com/in/paul-miller-schmidt/" />    <SocialIcon target="_blank" class="icon" url="https://github.com/paulmillerschmidt" />
+                    <SocialIcon target="_blank" class="icon" style={linkedInIconStyle} url="https://www.linkedin.com/in/paul-miller-schmidt/" />    <SocialIcon target="_blank" class="icon" url="https://github.com/pmillerschmidt" />
                 </p>
                 
             ) : (<div></div>)}

@@ -3,9 +3,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import NavigationBar from '../components/NavigationBar';
-import Mastfoot from '../components/mastfoot';
-import ProjectPage from '../components/ProjectPage';
-import Socials from "../components/Socials";
 import '../styles/Projects.css';
 import ProjectWide from '../components/ProjectWide';
 import ProjectThin from '../components/ProjectThin';

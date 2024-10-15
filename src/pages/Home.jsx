@@ -6,15 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import components
 import NavigationBar from '../components/NavigationBar';
 import LandingPage from '../components/LandingPage';
-import BouncingBall from '../components/BouncingBall';
-import Mastfoot from '../components/mastfoot';
 import '../styles/Home.css';
-import PreloadImages from '../components/PreloadImages';
 // background
-import bg from '../static/images/cover.jpg';
 import Socials from '../components/Socials';
 import ImagePreloader from '../components/ImagePreloader';
-import { Helmet } from 'react-helmet-async';
 import VideoBackground from '../components/VideoBackground';
 
 
@@ -22,9 +17,6 @@ import VideoBackground from '../components/VideoBackground';
 
 function Home() {
 
-  // useEffect(() => {
-  //   document.body.style.backgroundImage = `url(${bg})`;
-  // }, []);
   useEffect(() => {
     document.title = 'Home';
   }, []);
@@ -33,7 +25,6 @@ function Home() {
   return (
 
     <div>
-      {/* <div className="background"> */}
       <VideoBackground />
 
     <div className="site-wrapper">
