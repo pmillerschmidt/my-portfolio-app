@@ -56,7 +56,7 @@ const About = () => {
                 Alpha-beta pruning and Scout optimizations. For <strong><i>Algorithmic Music</i> (Supercollider, MaxMSP)</strong>,
                 I built numerous automated and responsive musical generation tools. In <strong><i>Natural Language
                     Processing</i> (TensorFlow, Word2Vec, Keras)</strong>, I designed sequence-to-sequence text models
-                using RNNs, LSTMs, and Transformers.</p>
+                using <strong>RNNs, LSTMs, and Transformers.</strong></p>
             <p>Alongside internships at startups, I explored entrepreneurship by founding <strong>
                 <a href="https://github.com/pmillerschmidt/GrooveBlocks" target="_blank"
                                                             rel="noopener noreferrer">Grooveblocks</a></strong>, an edtech
